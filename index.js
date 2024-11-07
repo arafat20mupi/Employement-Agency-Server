@@ -9,7 +9,7 @@ const UserRoute = require('./Users/UsersRoute')
 app.use(express.json());
 
 app.use(cors({
-  origin: ['http://localhost:5173', 'http://localhost:5174'],
+  origin: ['http://localhost:5173', 'http://localhost:5174', 'https://eurobanglahr.com'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],  // Specify the HTTP methods allowed
   credentials: true,  // Enable this if you're using cookies or authentication tokens
 }));
